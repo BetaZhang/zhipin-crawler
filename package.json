@@ -1,0 +1,34 @@
+{
+  "name": "zhipin-crawler",
+  "version": "1.0.0",
+  "description": "基于 Puppeteer 实现的 BOSS 直聘爬虫程序。",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BetaZhang/zhipin-crawler.git"
+  },
+  "keywords": [
+    "crawler",
+    "nodejs",
+    "puppeteer"
+  ],
+  "author": "Beta Zhang (https://github.com/BetaZhang)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BetaZhang/zhipin-crawler/issues"
+  },
+  "homepage": "https://github.com/BetaZhang/zhipin-crawler#readme",
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  },
+  "dependencies": {
+    "puppeteer": "^24.9.0",
+    "puppeteer-core": "^24.9.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
