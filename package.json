@@ -26,6 +26,7 @@
     "prettier": "^3.5.3"
   },
   "dependencies": {
+    "fs-extra": "^11.3.0",
     "puppeteer": "^24.9.0",
     "puppeteer-core": "^24.9.0",
     "puppeteer-extra": "^3.3.6",
